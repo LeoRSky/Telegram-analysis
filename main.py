@@ -11,7 +11,7 @@ def GetInfo_Audio(list_audio):
 def GetInfo_Docs(list_docs):
     return f"Number of Docs: {count_docs}"
 
-path_telegram = Path(r"C:\Users\User\AppData\Roaming\Microsoft\Windows\Start Menu\Programs\Telegram Desktop\Telegram.lnk")
+path_telegram = Path(r"C:\Users\KITI\AppData\Roaming\Telegram Desktop")
 
 Pictures = (".png", ".jpg", ".jpeg", ".gif")
 Videos = (".mp4", ".mov", ".avi", ".mkv")
