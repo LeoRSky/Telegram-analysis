@@ -1,5 +1,8 @@
 from pathlib import Path
 
+def GetInfo_Telegram(list_telegram):
+    return f"|{list_telegram:^10}|"
+
 path_telegram = Path(r"C:\Users\User\AppData\Roaming\Microsoft\Windows\Start Menu\Programs\Telegram Desktop\Telegram.lnk")
 
 Pictures = (".png", ".jpg", ".jpeg", ".gif")
@@ -22,8 +25,4 @@ for file in path_telegram.iterdir():
             count_Docs += 1
 
 list_Telegram = "Telegram download analysis"
-print(f"|{list_Telegram:^10}|")
-print(f"Number of Pictures: {count_Pictures}")
-print(f"Number of Videos: {count_Videos}")
-print(f"Number of Audio: {count_Audio}")
-print(f"Number of Documents: {count_Docs}")
+print(GetInfo_Telegram(list_Telegram))
