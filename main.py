@@ -8,6 +8,8 @@ def GetInfo_Videos(list_videos):
     return f"Number of Videos: {count_videos}"
 def GetInfo_Audio(list_audio):
     return f"Number of Audio: {count_audio}"
+def GetInfo_Docs(list_docs):
+    return f"Number of Docs: {count_docs}"
 path_telegram = Path(r"C:\Users\User\AppData\Roaming\Microsoft\Windows\Start Menu\Programs\Telegram Desktop\Telegram.lnk")
 
 Pictures = (".png", ".jpg", ".jpeg", ".gif")
@@ -34,3 +36,4 @@ print(GetInfo_Telegram(list_Telegram))
 print(GetInfo_Pictures(count_Pictures))
 print(GetInfo_Videos(count_Videos))
 print(GetInfo_Audio(count_Audio))
+print(GetInfo_Docs(count_Docs))
