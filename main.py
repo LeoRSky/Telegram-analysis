@@ -22,3 +22,4 @@ for file in path_telegram.iterdir():
             count_Docs += 1
 
 
+            count_Docs += 1
