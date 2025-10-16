@@ -2,13 +2,13 @@ from pathlib import Path
 
 def GetInfo_Telegram(list_telegram):
     return f"|{list_telegram:^10}|"
-def GetInfo_Pictures(list_pictures):
+def GetInfo_Pictures(count_pictures):
     return f"Number of Pictures: {count_pictures}"
-def GetInfo_Videos(list_videos):
+def GetInfo_Videos(count_videos):
     return f"Number of Videos: {count_videos}"
-def GetInfo_Audio(list_audio):
+def GetInfo_Audio(count_audio):
     return f"Number of Audio: {count_audio}"
-def GetInfo_Docs(list_docs):
+def GetInfo_Docs(count_docs):
     return f"Number of Docs: {count_docs}"
 
 path_telegram = Path(r"C:\Users\KITI\AppData\Roaming\Telegram Desktop")
