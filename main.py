@@ -4,6 +4,8 @@ def GetInfo_Telegram(list_telegram):
     return f"|{list_telegram:^10}|"
 def GetInfo_Pictures(list_pictures):
     return f"Number of Pictures: {count_pictures}"
+def GetInfo_Videos(list_videos):
+    return f"Number of Videos: {count_videos}"
 path_telegram = Path(r"C:\Users\User\AppData\Roaming\Microsoft\Windows\Start Menu\Programs\Telegram Desktop\Telegram.lnk")
 
 Pictures = (".png", ".jpg", ".jpeg", ".gif")
@@ -28,3 +30,4 @@ for file in path_telegram.iterdir():
 list_Telegram = "Telegram download analysis"
 print(GetInfo_Telegram(list_Telegram))
 print(GetInfo_Pictures(count_Pictures))
+print(GetInfo_Videos(count_Videos))
