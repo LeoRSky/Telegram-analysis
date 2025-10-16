@@ -20,3 +20,6 @@ for file in path_telegram.iterdir():
             count_Audio += 1
         elif name in Docs:
             count_Docs += 1
+
+
+#gui start
