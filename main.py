@@ -21,5 +21,5 @@ for file in path_telegram.iterdir():
         elif name in Docs:
             count_Docs += 1
 
-
-#gui start
+list_Telegram = "Telegram download analysis"
+print(f"|{list_Telegram:^10}|")
