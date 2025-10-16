@@ -24,3 +24,4 @@ for file in path_telegram.iterdir():
 list_Telegram = "Telegram download analysis"
 print(f"|{list_Telegram:^10}|")
 print(f"Number of Pictures: {count_Pictures}")
+print(f"Number of Videos: {count_Videos}")
