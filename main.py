@@ -14,5 +14,7 @@ for file in path_telegram.iterdir():
         name = file.suffix.lower()
         if name in Pictures:
             count_Pictures += 1
-            
+        elif name in Videos:
+            count_Videos += 1
+
 
